@@ -1,0 +1,39 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body .bg{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 600px;
+    background-image: url(/uploads/logo_php.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+body .login {
+    position: absolute;
+    top: 8%;
+    right: 21%;
+    text-transform: uppercase;
+    text-align: right;
+}
+body .login a {
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    box-shadow: 0 0 6px 5px rgb(22, 21, 21);
+    border-radius: 20px;
+    font-weight: bold;
+}
+body .login a:hover {
+    color: rgb(196, 9, 9);
+    box-shadow: 0 0 6px 5px  rgb(247, 0, 255);
+}

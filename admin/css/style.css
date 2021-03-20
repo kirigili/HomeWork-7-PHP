@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+	background: #cfcfcf;
+}
+body .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+body .explorer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 300px;
+}
+body .explorer li {
+    list-style: none;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: black;
+}
+body .explorer li a {
+    text-decoration: none;
+    color: #000;
+}
+body .explorer li a:hover {
+    color: rgb(4, 0, 255);
+}
+body form {
+    padding: 15px;
+}
+body form button {
+    width: 50px;
+	margin: 5px;
+	height: 28px;
+	border: 1px solid #ccc;
+	background: #fff;
+	color: #666;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #ccc;
+	cursor: pointer;
+}
+body .explorer form {
+    text-align: center;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+body .explorer form button {
+    width: 90px;
+	margin: 5px;
+	height: 28px;
+	border: 1px solid #ccc;
+	background: #fff;
+	color: #666;
+	border-radius: 1px;
+	box-shadow: 0 0 2px #ccc;
+	cursor: pointer;
+}
+body input {
+	font-size: 15px;
+	border: 1px solid #cfcfcf;
+	background: #F6F6f6;
+	border-radius: 3px;
+}
+body .logout {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-transform: uppercase;
+    text-align: right;
+}
+body .logout a {
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    box-shadow: 0 0 6px 5px rgb(22, 21, 21);
+    border-radius: 10px;
+    font-weight: bold;
+}
+body .logout a:hover {
+    color: rgb(196, 9, 9);
+    box-shadow: 0 0 6px 5px  rgb(247, 0, 255);
+}
